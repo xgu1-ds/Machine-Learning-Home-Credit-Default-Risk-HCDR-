@@ -1,8 +1,8 @@
-The data consists of a mix of numerical features and categorical features 
-and there are no columns with ‘text’ data. Based on an initial inspection
-of the data, we can see that there are missing values in a significant 
-number of columns and will require imputing. Also, combining features 
-from different datasets will require custom transformations.
+The data consists of a mix of numerical features and categorical features. 
+However, there are no columns with ‘text’ data. Based on an initial 
+inspection of the data, we can see that there are missing values in a 
+significant number of columns and will require imputing. Also, combining 
+features from different datasets will require custom transformations.
 
 Following pipelines will be used in the workflow:
 
@@ -10,7 +10,7 @@ Following pipelines will be used in the workflow:
   scaling of numerical features using StatndardScaler() and imputing 
   missing values using SimpleImputer().
 * **Categorial pipeline** - This pipeline will inlcude but not limited to 
-  encoding categorical features using OneHotEncdoing() and imputing 
+  encoding categorical features using OneHotEncoding() and imputing 
   missing values using SimpleImputer().
 * **Pre-Processing pipeline** - A prep-processing step can be included to 
   transform different columns and add new features. The pipeline will 
