@@ -7,7 +7,7 @@ features from different datasets will require custom transformations.
 Following pipelines will be used in the workflow:
 
 * **Numerical pipeline** - This pipeline will include but not limited to 
-  scaling of numerical features using StatndardScaler() and imputing 
+  scaling of numerical features using StandardScaler() and imputing 
   missing values using SimpleImputer().
 * **Categorial pipeline** - This pipeline will inlcude but not limited to 
   encoding categorical features using OneHotEncoding() and imputing 
