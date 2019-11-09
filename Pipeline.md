@@ -12,12 +12,14 @@ Following pipelines will be used in the workflow:
 * **Categorial pipeline** - This pipeline will inlcude but not limited to 
   encoding categorical features using OneHotEncoding() and imputing 
   missing values using SimpleImputer().
-* **Pre-Processing pipeline** - A prep-processing step can be included to 
-  transform different columns and add new features. The pipeline will 
-  be built using ColumnTransformer() and will include custom 
-  transformation steps whih can be fed into the pipeline directly.
-* **Model pipeline** - Finally the model pipeline will combine the the 
-  above created pre-processing pipeline and the actual algorithm being 
+* **Pre-Processing pipeline** - A prep-processing step will combine the 
+  numerical and categorical pipeline and also include steps to  
+  transform different columns, feature engineering wo add new features 
+  from different datastes. The pipeline will be built using 
+  ColumnTransformer() and will include custom transformation steps which 
+  can be fed into the pipeline directly.
+* **Model pipeline** - Finally the model pipeline will combine above 
+  created pre-processing pipeline and the actual algorithm being 
   used for classification. 
   
 Data will be fitted into the final model pipeline and transformed 
