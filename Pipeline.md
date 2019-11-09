@@ -13,7 +13,7 @@ Following pipelines will be used in the workflow:
   encoding categorical features using OneHotEncoding() and imputing 
   missing values using SimpleImputer().
 * **Pre-Processing pipeline** - A prep-processing step will combine the 
-  numerical and categorical pipeline and also include steps to  
+  numerical and categorical pipeline and also include steps to 
   transform different columns, feature engineering wo add new features 
   from different datastes. The pipeline will be built using 
   ColumnTransformer() and will include custom transformation steps which 
