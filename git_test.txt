@@ -1,8 +1,0 @@
-Elements of AI
-MLSP
-Deep Learning
-Computer Vision
-Network Science
-NLP
-Data/INFO Viz
-Social media Mining
